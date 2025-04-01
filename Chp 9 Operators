@@ -1,0 +1,36 @@
+//chp 9 Operators
+fun main(args: Array<String>) {
+val a = 10
+  val b = 5
+  val sum = a + b
+  val diff = a - b
+  val multiply = a * b
+  val divide = a / b
+  val modulo = a % b
+  println(sum)
+  println(diff)
+  println(modulo)
+  println(multiply)
+  println(divide)
+
+  var num = 4
+  println(num++) //value returned before increment
+  println(++num) // value returned after increment
+  println(--num)
+
+  println("a > b = ${a > b}")
+  println("a < b = ${a < b}")
+  println("a < b = ${a <= b}")
+  println("a >= b = ${a >= b}")
+
+  //assignment operators
+  var d = 20
+  d = d + 5
+  d += 5
+  //logical operators
+  val var1 = false
+  val var2 = true
+  println("var1 && var2 = ${var1 && var2}") //false
+  println(" var1 || var2 = ${var1 || var2}")//true
+   println ("!var2 = ${!var2}")//false
+ }
